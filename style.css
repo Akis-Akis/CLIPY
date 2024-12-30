@@ -111,3 +111,8 @@ header p {
     background-color: #218838;
     transform: scale(1.1); /* Powiększenie przy najechaniu */
 }
+.gallery-videos video {
+    width: 300px;
+    height: auto; /* Automatyczna wysokość, aby zachować proporcje */
+    margin: 10px; /* Odstęp między filmami */
+}

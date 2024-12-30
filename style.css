@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #800080;
+    color: white;
     text-align: center;
 }
 
 /* Nagłówek */
 header {
-    background-color: #ffcc00;
+    background-color: #800080;
     color: white;
     padding: 20px;
 }
@@ -72,7 +72,7 @@ header p {
 /* Sekcja o nas */
 .about {
     padding: 40px 0;
-    background-color: white;
+    background-color: #800080;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -83,7 +83,7 @@ header p {
 
 /* Sekcja kontaktowa */
 .footer {
-    background-color: #333;
+    background-color: #800080;
     color: white;
     padding: 20px 0;
 }

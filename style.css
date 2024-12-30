@@ -25,17 +25,17 @@ header p {
 }
 
 /* Sekcja z filmami */
-.clipy {
+.video {
     margin: 40px auto;
     text-align: center;
 }
 
-.clipy h2 {
+.video h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.clipy-items {
+.video-items {
     display: flex;
     justify-content: center;
     gap: 15px;

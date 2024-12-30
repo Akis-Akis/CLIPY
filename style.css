@@ -27,6 +27,7 @@ header p {
 /* Sekcja z filmami */
 .clipy {
     margin: 40px auto;
+    text-align: center;
 }
 
 .clipy h2 {
@@ -42,10 +43,11 @@ header p {
 }
 
 .video {
-    width: 300px;
-    height: 200px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Ustawiona stała szerokość */
+    height: 200px; /* Ustawiona stała wysokość */
+    object-fit: cover; /* Utrzymuje proporcje wideo wewnątrz kontenera */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efekt cienia */
 }
 
 /* Sekcja głosowania */
